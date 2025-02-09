@@ -1,0 +1,45 @@
+p{
+    text-align: justify;
+}
+
+ol{
+    text-align: center;
+}
+
+li{
+    text-align: center;
+}
+
+table{
+    border: "2";
+}
+
+#row{
+    background-color: grey;
+}
+
+h1{
+    text-shadow: 10px 10px 3px red;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: red;
+}
+
+button{
+    background-color: #10516d;
+    color: white;
+    padding: 15px;
+    font-size: 30;
+}
+
+button:hover{
+    background-color: red;
+    color:pink;
+    border-radius: 10px;
+    cursor: pointer;
+}

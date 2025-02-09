@@ -1,0 +1,30 @@
+#container{
+    background-color: rgb(216, 216, 233);
+    opacity: 0.9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+    line-height: 40px;
+    /* text-transform: lowercase;   */
+
+   
+}
+
+a {
+    /* text-decoration: none; */
+    text-decoration: solid;
+}
+h1{
+    
+    text-decoration: dotted;
+}
+
+span{
+    text-decoration:underline ;
+    text-transform: capitalize;
+    font-size: 50px;
+    color: yellow;
+    background-color: black;
+    margin: 10px 0px 20px 30px;
+}
