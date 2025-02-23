@@ -23,8 +23,13 @@ h3{
     color: green;
     border: 2px ;
     text-align: left;
+<<<<<<< HEAD
     font-size: large;
     height: 600px;
+=======
+    font-size: medium;
+    height: 430px;
+>>>>>>> 89fe451 (Reinitialized repository)
     width: 300px;
     margin: 20px;
     padding: 10px;
