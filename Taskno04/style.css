@@ -1,0 +1,35 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    background-color: #1B75D0;
+    color: white;
+    text-align: center;
+}
+
+.nav-li {
+    display: inline;
+    padding: 10px;
+
+}
+
+.nav-a {
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    padding-top: 10px;
+    padding-left: 700px;
+}
+
+.nav-a:hover {
+    background-color: #408bd6;
+    padding: 10px;
+    /* border-radius: 20px; */
+}

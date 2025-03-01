@@ -1,0 +1,13 @@
+.relative {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.absolute {
+  position: absolute;
+  top: 180px;
+  /* right: 0; */
+  color: white;
+  font-weight: bolder;
+}
