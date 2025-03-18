@@ -53,13 +53,26 @@ nav ul li a:hover,
   margin-left: 550px;
 }
 
-i {
+.contacts i {
   background: white;
   color: #4c4c97;
   padding: 10px 15px;
   border: none;
   border-radius: 50%;
   font-size: 20px;
+}
+
+.social-icons i {
+  background: white;
+  color: black;
+  padding: 10px 15px;
+  /* border: 1pt solid black; */
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.service-options i {
+  color: #3ddc97;
 }
 
 .num {
@@ -84,7 +97,8 @@ i {
   padding: 50px 80px;
   height: 60vh;
   position: relative;
-  background: linear-gradient(to bottom, #4c4c97 40%, #1db56b 60%);
+  background-image: url('./images/background.png');
+  /* background: linear-gradient(to bottom, #4c4c97 40%, #1db56b 60%); */
   overflow: hidden;
 }
 
@@ -129,27 +143,27 @@ i {
 
 /* Hero Image Container */
 .hero-image {
-  position: relative;
-  width: 280px;
-  height: 280px;
-  background: white;
+  /* position: relative; */
+  /* width: 350px; */
+  /* height: 350px; */
+  /* background: white; */
   border-radius: 50%;
   display: flex;
   /* align-items: center;
     justify-content: center; */
-  margin-right: 80px;
+  margin-right: 150px;
   /* overflow: hidden; */
 }
 
 .hero-image img {
-  width: 400px;
+  width: 500px;
   position: relative;
-  bottom: -40px; /* Adjust for proper alignment */
+  /* bottom: -40px; Adjust for proper alignment */
   right: 40px;
 }
 
 /* Button */
-button {
+.text button {
   background: #4c4c97;
   color: white;
   padding: 10px 20px;
@@ -367,15 +381,205 @@ tr:nth-child(even) {
   transform: scale(1.1);
 }
 
-footer{
+.services-hero {
+  background-color: #f9f9f9;
+  padding: 100px;
+}
+
+.service-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centering the content */
+  background-color: #14b789;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 75%;
+  height: 150px;
+  /* align-self: center; */
+  margin-left: 150px;
+}
+
+.serviceh1 {
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-left: 15px; /* Added spacing */
+}
+
+.service-img {
+  width: 120px; /* Adjusted for better look */
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.serviceCard1 {
+  height: 500px;
+  width: 450px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 35px;
+  overflow: hidden;
+}
+
+#C1 {
+  margin-left: 150px;
+  margin-right: 20px;
+  margin-top: 100px;
+}
+
+#C2 {
+  margin-top: 50px;
+}
+
+#C3 {
+  margin-left: 150px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+
+#C4 {
+  margin-top: 1px;
+}
+
+.firstline {
+  display: flex;
+  justify-content: space-between; /* Ensures the h1 and price are at opposite ends */
+  align-items: center; /* Aligns items vertically */
+}
+
+.price {
+  border-radius: 20px;
+  background-color: #4c4c97;
+  color: white;
+  height: 30px;
+  width: 70px;
+  display: grid;
+  place-items: center; /* Centers content */
+  margin-left: auto; /* Pushes it to the right */
+}
+
+.serviceCard1 button {
+  margin: 16px;
+  border-radius: 30px;
+  padding: 12px 24px;
+  color: #717275;
+  font: 18px "DM Sans", sans-serif;
+  background-color: white;
+  border: 1px solid #717275;
+}
+
+.serviceCard1 p {
+  color: #717275;
+  font: 18px "DM Sans", sans-serif;
+}
+
+.rotate1 {
+  border: 1px solid #cdcdcd;
+  width: 50%;
+  height: 55%;
+  transform: rotate(-35deg) translateY(55px);
+  /* transition: all ease 0.5s; */
+  float: right;
+  margin-top: 100px;
+}
+
+.rotate1 i {
+  color: black;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 30vh;
+  font-size: 100px;
+}
+
+.main-Projects {
+  margin-right: 150px;
+  margin-top: 100px;
+}
+
+.proCards {
+  display: flex;
+  justify-content: space-evenly; /* Distribute space evenly */
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.proC1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 450px;
+  width: 400px;
+  background-color: #f9f9f9;
+  padding-left: 50px;
+  padding-top: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.proC1 p {
+  color: #16a085;
+  font: 12px;
+}
+
+.proC1img {
+  display: block;
+  transform: rotate(10deg) translateY(80px);
+  transition: all ease 0.5s;
+}
+
+.proC1img img {
+  width: 80%;
+  border-radius: 20px;
+}
+
+.project1 {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centering the content */
+  background-color: #14b789;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 800px;
+  height: 150px;
+  float: right;
+}
+
+.pro {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 15px; /* Added spacing */
+}
+
+.desk {
+  width: 120px; /* Adjusted for better look */
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.desk img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%; /* Perfectly round */
+  object-fit: cover;
+}
+
+footer {
   padding: 120px 60px;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
 }
 
 .container1 {
   display: flex;
   align-items: center;
-  justify-content: center;  /* Centering the content */
+  justify-content: center; /* Centering the content */
   background-color: #14b789;
   color: white;
   padding: 20px;
@@ -404,9 +608,7 @@ footer{
   object-fit: cover;
 }
 
-
 .footer-container {
-
   background: #fff;
   padding: 40px 20px;
   display: flex;
@@ -415,7 +617,8 @@ footer{
   margin: auto;
 }
 
-.footer-left, .footer-right {
+.footer-left,
+.footer-right {
   width: 48%;
   padding: 10px;
 }
@@ -459,13 +662,12 @@ footer{
   margin: 5px 0;
 }
 
-
- .container2{
+.container2 {
   display: flex;
   margin-top: 40px;
   gap: 30px;
   margin-right: 70px;
- }
+}
 /* Right Section (Form) */
 .contact-form {
   width: 60%;
@@ -546,4 +748,45 @@ textarea {
 
 .lastfooter p {
   margin: 0;
+}
+
+
+/* ---------------------------------hover---------------------------------------*/
+
+.serviceCard1 {
+  transition: border-color 2s ease; /* Smooth transition for border color */
+}
+
+.serviceCard1:hover {
+  border: 2px solid #14b789; /* Change border color */
+}
+
+.serviceCard1 .rotate1 {
+  transition: background-color 0.8s ease; /* Smooth transition for background color */
+}
+
+.serviceCard1:hover .rotate1 {
+  background-color: #14b789; /* Change background color of rotate1 */
+}
+
+.serviceCard1:hover .rotate1 i {
+  color: white; /* Change icon color to white */
+}
+
+.serviceCard1 .price {
+  transition: background-color 0.8s ease; /* Smooth transition for background color */
+}
+
+.serviceCard1:hover .price {
+  background-color: #14b789; /* Change background color of price */
+}
+
+
+
+.proC1:hover {
+  border: 2px solid #14b789; /* Change border color */
+}
+
+.proC1:hover .proC1img {
+  transform: rotate(-0.5deg); /* Rotate the image */
 }
