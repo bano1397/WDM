@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #product {
+            color: blue;
+            font-size: 20px;
+            font-weight: bold;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="product">Product</h1>
+    <script>
+        // const findValue = (word , n) =>{
+        //     const length = word.length;
+        //     for(let i = length-1; i >= n; i--){
+        //         console.log(word.charAt[i]);
+        //     }
+        // }
+        // findValue("developer", 4)
+
+
+        // const nos = [5,6,3,9,2,7,9]
+        // nos.sort()
+        // nos.reverse()
+        // console.log(nos[0])
+
+
+        // //////////////////////// setTimeout /////////  ********   *******     *******///////////////-------------run 1 time after the giver seconds
+
+        // setTimeout(() => {
+        //     console.log("Hello World")
+        // }, 2000)
+
+        // ///////////////////////// setInterval //////  / ////  //////////  /// -------------------continuously run after the given seconds
+
+        // setInterval(() => {
+        //     console.log("Hello World")
+        // }, 2000)
+
+
+        // // /////  ////   ////////    ////  //// clearInterval //////  //////////  //////// -------------------to stop the setInterval function
+        // const interval = setInterval(() => {
+        //     console.log("Hello World")
+        // }, 2000)
+
+        // clearInterval(interval)
+
+
+        const product = [{
+            id: 1,
+            name: "Mobile",
+            price: 10000
+        },{
+            id: 2,
+            name: "Laptop",
+            price: 50000
+        },{
+            id: 3,
+            name: "Tablet",
+            price: 20000
+        },{
+            id: 4,
+            name: "Smart Watch",
+            price: 15000
+        },{
+            id: 5,
+            name: "Headphone",
+            price: 3000
+        }]
+
+        const length = product.length;
+        console.log(length);
+
+        product.map((value,index) => {
+            document.getElementById("product").innerHTML += `<h1>Product ID: ${value.id}</h1><h5> Product Name: ${value.name}, Product Price: ${value.price}</h5>`
+            // console.log("Product ID: " + value.id + ", Product Name: " + value.name + ", Product Price: " + value.price);
+        })  
+
+    </script>
+</body>
+
+</html>

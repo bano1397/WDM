@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        // 1- Capitalize the First Letter
+        function fun1(input) {
+            return "Hello";
+        }
+        console.log(fun1("how are you")); 
+
+
+        // 2- Remove a Character From String
+        function fun2(str) {
+            return str.slice(1); 
+        }
+        console.log(fun2("HelloWorld")); 
+
+
+        // 3- Iterate Over String Characters using for...of and for...in
+        function fun3(str) {
+            console.log("Using for...of:");
+            for (let char of str) {
+                console.log(char);
+            }
+
+            console.log("Using for...in:");
+            for (let index in str) {
+                console.log(str[index]);
+            }
+        }
+        fun3("code");
+
+
+        // 4- Get Last N Characters of a String
+        function fun4(str, n) {
+            return str.slice(-n);
+        }
+        console.log(fun4("developer", 4)); 
+
+
+        // 5- Count Words in a String
+        function fun5(sentence) {
+            return sentence.trim().split(/\s+/).length;
+        }
+        console.log(fun5("JavaScript is fun to learn"));
+
+    </script>
+</body>
+
+</html>
